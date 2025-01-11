@@ -11,7 +11,7 @@ A personal portfolio project designed to showcase my skills, projects, and achie
 - **Frontend**: HTML, CSS, JavaScript
 - **Other Tools**: [e.g., Bootstrap, Tailwind CSS, etc.]
 
-- 
+
 ### Installation
 1. Clone the repository:
    ```bash

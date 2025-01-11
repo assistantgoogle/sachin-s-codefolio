@@ -9,7 +9,6 @@ A personal portfolio project designed to showcase my skills, projects, and achie
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: [Specify if used, e.g., Node.js, Spring Boot]
 - **Other Tools**: [e.g., Bootstrap, Tailwind CSS, etc.]
 
 - 

@@ -19,4 +19,4 @@ A personal portfolio project designed to showcase my skills, projects, and achie
 
 ## Deployed Application
 
-You can view the deployed application https://sachin-s-codefolio-tp0sv7uklgp.vercel.app/
+You can view the deployed application https://8vwtelx4mccqjiax.vercel.app/

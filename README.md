@@ -19,4 +19,4 @@ A personal portfolio project designed to showcase my skills, projects, and achie
 
 ## Deployed Application
 
-You can view the deployed application [here](https://yukpiijaqnd5bp34.vercel.app/).
+You can view the deployed application https://kzmp1go3a5dfr6y3ht9d.lite.vusercontent.net/

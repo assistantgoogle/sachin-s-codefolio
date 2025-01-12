@@ -49,14 +49,6 @@ export default function Portfolio() {
     }
   ]
 
-  const handleResumeDownload = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    const isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    if (!isChrome) {
-      e.preventDefault();
-      alert('Please use Chrome to download the resume.');
-    }
-  };
-
   const scrollToProjects = () => {
     document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -77,7 +69,7 @@ export default function Portfolio() {
                 {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </Button>
               <Button variant="default" asChild>
-                <a href="/SachinMarkale.pdf" download onClick={handleResumeDownload}>
+                <a href="/resume">
                   <Download className="mr-2 h-4 w-4" /> Resume
                 </a>
               </Button>
@@ -120,13 +112,15 @@ export default function Portfolio() {
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary"
+              className="relative w-72 h-72 rounded-full overflow-hidden border-4 border-primary"
             >
               <Image
-                src="/sachin-photo.jpg"
-                alt="Sachin"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/sachinimg.jpg-vB67TTpNBmi0azP7SIPYSmasDeykCg.jpeg"
+                alt="Sachin M"
                 fill
-                className="object-cover"
+                quality={100}
+                priority
+                className="object-cover object-top scale-110"
               />
             </motion.div>
           </div>
